@@ -10,6 +10,6 @@
 
 @interface ZHXShopViewController : UIViewController
 
-@property (strong, nonatomic) UILabel   *label;
+
 
 @end
