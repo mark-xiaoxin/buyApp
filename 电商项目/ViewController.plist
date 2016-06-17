@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>normal</key>
+		<string>xianshi</string>
+		<key>selected</key>
+		<string>xianshi1</string>
+		<key>viewController</key>
+		<string>ZHXSellViewController</string>
+		<key>title</key>
+		<string>限时特卖</string>
+	</dict>
+	<dict>
+		<key>normal</key>
+		<string>fenlei</string>
+		<key>selected</key>
+		<string>fenlei1</string>
+		<key>viewController</key>
+		<string>ZHXCategoryViewController</string>
+		<key>title</key>
+		<string>分类</string>
+	</dict>
+	<dict>
+		<key>normal</key>
+		<string>gouwuche</string>
+		<key>selected</key>
+		<string>gouwuche1</string>
+		<key>viewController</key>
+		<string>ZHXShopViewController</string>
+		<key>title</key>
+		<string>购物车</string>
+	</dict>
+	<dict>
+		<key>normal</key>
+		<string>my</string>
+		<key>selected</key>
+		<string>my1</string>
+		<key>viewController</key>
+		<string>ZHXMyViewController</string>
+		<key>title</key>
+		<string>我的</string>
+	</dict>
+</array>
+</plist>

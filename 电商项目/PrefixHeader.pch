@@ -1,0 +1,51 @@
+//
+//  PrefixHeader.pch
+//  电商项目
+//
+//  Created by 小新 on 16/6/16.
+//  Copyright © 2016年 Mark-zhx. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "ZHXTabBarController.h"
+#import "ZHXMyViewController.h"
+#import "ZHXShopViewController.h"
+#import "ZHXCategoryViewController.h"
+#import "ZHXSellViewController.h"
+#import "ZHXButton.h"
+#import "ZHXTabBar.h"
+#import "ZHXNavigationController.h"
+#import "ZHXLoginView.h"
+#import "ZHXLoginViewController.h"
+
+
+
+
+
+
+/// 第三方
+#import <AFNetworking/AFNetworking.h>
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+
+#import <Masonry/Masonry.h>
+
+
+
+
+#define RGB(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+#define PATH [[NSBundle mainBundle]pathForResource:@"ViewController" ofType:@"plist"]
+
+
+#define ARRAY [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"ViewController" ofType:@"plist"]]
+
+
+
+
+#endif /* PrefixHeader_pch */
